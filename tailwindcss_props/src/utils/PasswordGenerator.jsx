@@ -24,7 +24,9 @@ function PasswordGenerator() {
 
     const copyToClipboard = () => {
         navigator.clipboard.writeText(password);
+        console.log("PasswordCopied")
     };
+    
 
     return (
         <div className="w-full max-w-lg mx-auto my-8 shadow-md rounded-lg p-4 bg-gray-800 text-orange-500">
